@@ -3,7 +3,7 @@ services:
   user:
     build: .
     command: "npm run dev"
-    working_dir: /home/node/app
+    working_dir: /home/user/app
     expose:
       - "3080"
     ports:
