@@ -3,7 +3,7 @@ const app = require('../src/app');
 const http = require('http');
 const debug = require('debug')('api-users-v2:server');
 
-const port = normalizePort(process.env.PORT || '3080');
+const port = normalizePort(process.env.PORT || '4444');
 app.set('port', port);
 
 const server = http.createServer(app);

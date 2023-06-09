@@ -5,8 +5,8 @@ services:
     command: "npm run dev"
     working_dir: /home/user/app
     expose:
-      - "3080"
+      - "4444"
     ports:
-      - "3080:3080"
+      - "4444:4444"
     
     
