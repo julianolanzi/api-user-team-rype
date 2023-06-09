@@ -1,0 +1,12 @@
+version: "3"
+services:
+  node:
+    build: .
+    command: "npm run dev"
+    working_dir: /home/node/app
+    expose:
+      - "3080"
+    ports:
+      - "3080:3080"
+    
+    
