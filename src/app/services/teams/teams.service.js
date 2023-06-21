@@ -11,7 +11,7 @@ exports.get = async () => {
 };
 exports.getById = async (id) => {
 
-    const team = await Teams.findById(id).populate(['admin', 'members', 'adminMembers', 'lines']);
+    const team = await Teams.findById(id).populate(['admin', 'members', 'adminMembers']);
     return team;
 }
 exports.getSearchkey = async (key) => {

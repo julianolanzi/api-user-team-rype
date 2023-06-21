@@ -14,7 +14,7 @@ exports.get = async (req, res, next) => {
 }
 
 exports.getById = async (req, res, next) => {
-
+    console.log(req.params.id);
     try {
         const data = await teamService.getById(req.params.id);
 
