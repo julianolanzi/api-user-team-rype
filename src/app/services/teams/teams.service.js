@@ -93,6 +93,7 @@ exports.create = async (data, userid) => {
         idTeam: idTeam,
         url: data.url,
         profileImage: '',
+        urlCover: './assets/img/teams/cover-team.jpg',
         admin: userid,
         name: data.name.toLowerCase(),
         tagName: data.tagName.toLowerCase(),
