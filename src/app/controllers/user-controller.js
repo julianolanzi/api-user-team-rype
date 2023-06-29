@@ -6,7 +6,7 @@ const bcrypt = require('bcryptjs');
 
 exports.get = async (req, res, next) => {
     try {
-        console.log('chegando');
+      
         const data = await userService.get();
         return res.status(200).send(data);
 

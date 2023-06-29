@@ -113,7 +113,7 @@ exports.updateInfoTeam = async (id, data) => {
 
     const InfoTeam = await Teams.findByIdAndUpdate(id, {
         '$set': {
-            name: data.name,
+            name: data.name.toLowerCase(),
             tagName: data.tagName,
             ranking: data.ranking,
             instagramTeam: data.instagramTeam,
