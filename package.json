@@ -1,6 +1,6 @@
 {
   "name": "api-user-team-rype",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -29,10 +29,10 @@
     "http": "^0.0.1-security",
     "jsonwebtoken": "^8.5.1",
     "md5": "^2.3.0",
-    "mongoose": "^7.2.2",
+    "mongoose": "^7.3.1",
     "morgan": "^1.10.0",
     "nodemon": "^2.0.22",
-    "standard-version": "^9.5.0",
-    "short-uuid": "^4.2.2"
+    "short-uuid": "^4.2.2",
+    "standard-version": "^9.5.0"
   }
 }
